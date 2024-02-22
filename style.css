@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background-color: #DEE2E6;
+}
+
+.navbar {
+    background-color: black;
+    height: 50px;
+    font-size: x-large;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    list-style: none;
+    margin-top: 6px;
+    margin-right: 20px;
+}
+
+.navbar p {
+    margin: 6px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.container {
+    width: 100vw;
+    height: 50vh;
+    background-color: khaki;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+@media screen and (max-width:768px) {
+    .container {
+        width: 100vw;
+}
+}
+
+.container h1 {
+    font-size: 100px;
+    margin-top: 10px;
+}
+@media screen and (max-width:768px) {
+    .container h1{
+        font-size:80px;
+    }
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    background-color: #1f62a4;
+    height: 65vh;
+    width: 100vw;
+}
+@media screen and (max-width:768px) {
+    .container-2{
+        height: 55vh;
+}
+}
+#entryform {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 32vw;
+    height: 55vh;
+    background-color: rgb(192, 192, 192);
+    border-radius: 3px;
+}
+@media screen and (max-width:768px) {
+    #entryform{
+        width: 86vw;
+        height: 100vw;
+    }    
+}
+
+#entryform input {
+    width: 400px;
+    height: 40px;
+    border: none;
+    color: black;
+}
+@media screen and (max-width:768px) {
+    #entryform input{
+    width: 300px;
+    height: 45px;
+    }
+}
+
+#btn {
+    margin-top: 15px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+#btn:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+/* CSS code */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-container button {
+    margin: 5px;
+    width: 100%;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+    th,
+    td,
+    .button-container button {
+        padding: 5px;
+        margin: 3px;
+    }
+
+    .button-container button {
+        font-size: 12px;
+    }
+}
+
+
+.deleteButton{
+    border: none;
+    background-color: green;
+    color:white;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+    width:100px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.copy_username{
+    border: none;
+    background-color: green;
+    color:white;
+    font-weight:bold;
+    font-family: 'Poppins', sans-serif;
+    width:100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.copy_password{
+        border: none;
+        background-color: green;
+        color:white;
+        font-weight:bold;
+        font-family: 'Poppins', sans-serif;
+        width:100px;
+        height: 40px;
+        border-radius: 10px;
+}
